@@ -164,6 +164,9 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 # Compile libhwui in performance mode
 HWUI_COMPILE_FOR_PERF := true
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 #NFC
 NXP_CHIP_TYPE := 2
 
